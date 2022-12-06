@@ -159,7 +159,7 @@
     });
 
     $("#kecamatan").on("change", function (e) {
-      $(".kodeposres").val("Proses...");
+      $(".kodeposres").val("Loading...");
       let selectedProv = $("#provinsi").select2("data")[0].text;
       let selectedKab = $("#kabupaten").select2("data")[0].text;
       let selectedKecamatan = $(this).select2("data")[0].text;
